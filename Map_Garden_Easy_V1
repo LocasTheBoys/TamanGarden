@@ -28,17 +28,17 @@ local LOBBY_PLACE_ID = 108533757090220
 local scriptsByPlaceId = {
     [INGAME_PLACE_ID] = {
         --"https://github.com/LocasTheBoys/TamanGrave/raw/refs/heads/main/ANTI_AFK", --Begini juga bisa
-        "https://raw.githubusercontent.com/LocasTheBoys/TamanGrave/refs/heads/main/AutoUpgrade_map_grave_dif_impos_V1",--upgrade 
-        "https://raw.githubusercontent.com/LocasTheBoys/TamanGrave/refs/heads/main/map_grave_dif_impos_V5",--place unit
-        "https://raw.githubusercontent.com/LocasTheBoys/TamanGrave/refs/heads/main/AutoReplay_Map_Grave_V2",-- replay, jalan, speed, skip
-        "https://raw.githubusercontent.com/LocasTheBoys/TamanGrave/refs/heads/main/LowGrafik_V12",-- low
-        "https://raw.githubusercontent.com/LocasTheBoys/TamanGrave/refs/heads/main/ANTI_AFK",
-        "https://raw.githubusercontent.com/LocasTheBoys/TamanGrave/refs/heads/main/AntiDC_V1"
+        "https://raw.githubusercontent.com/LocasTheBoys/TamanGarden/refs/heads/main/AutoUpgrade_map_farm_dif_easy_V1",--upgrade 
+        "https://raw.githubusercontent.com/LocasTheBoys/TamanGarden/refs/heads/main/map_farm_dif_easy_V1",--place unit
+        "https://raw.githubusercontent.com/LocasTheBoys/TamanGarden/refs/heads/main/AutoReplay_Map_Garden_V1",-- replay, jalan, speed, skip
+        "https://raw.githubusercontent.com/LocasTheBoys/TamanGarden/refs/heads/main/LowGrafik_V1",-- low
+        "https://raw.githubusercontent.com/LocasTheBoys/TamanGarden/refs/heads/main/ANTI_AFK",
+        "https://raw.githubusercontent.com/LocasTheBoys/TamanGarden/refs/heads/main/AntiDC_V1"
     },
     [LOBBY_PLACE_ID] = {
-        "https://raw.githubusercontent.com/LocasTheBoys/TamanGrave/refs/heads/main/AutoJoin_Map_Grave_V1", -- auto join lobby
-        "https://raw.githubusercontent.com/LocasTheBoys/TamanGrave/refs/heads/main/ANTI_AFK",
-        "https://raw.githubusercontent.com/LocasTheBoys/TamanGrave/refs/heads/main/AntiDC_V1"
+        "https://raw.githubusercontent.com/LocasTheBoys/TamanGarden/refs/heads/main/Join_Map_Garden_V1", -- auto join lobby
+        "https://raw.githubusercontent.com/LocasTheBoys/TamanGarden/refs/heads/main/ANTI_AFK",
+        "https://raw.githubusercontent.com/LocasTheBoys/TamanGarden/refs/heads/main/AntiDC_V1"
     }
 }
 
