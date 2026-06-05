@@ -41,7 +41,7 @@ local CONFIG = {
     -- ====== [C] PENGATURAN AUTO WAVE (kategori: WAVE) ======
     WaveControl     = true,                     -- [WAVE]   guna: aktif/non-aktif kontrol otomatis berdasar wave.          | nilai: true / false.                               | efek: true = script otomatis hidup di StartWave & mati di StopWave.
     StartWave       = 9,                        -- [WAVE]   guna: nomor wave script auto-MULAI.                            | nilai: integer >= 1.                               | efek: jika wave saat ini >= angka ini -> script aktif (sekali per ronde).
-    StopWave        = 15,                        -- [WAVE]   guna: nomor wave script auto-BERHENTI.                         | nilai: integer > StartWave.                       | efek: jika wave saat ini >= angka ini -> script mati otomatis.
+    StopWave        = 17,                        -- [WAVE]   guna: nomor wave script auto-BERHENTI.                         | nilai: integer > StartWave.                       | efek: jika wave saat ini >= angka ini -> script mati otomatis.
 
     -- ====== [D] GUI MULTI-INSTANCE (kategori: GUI - khusus V2/V3) ======
     DefaultStateMinimize = true,                -- [GUI]    guna: state GUI saat eksekusi pertama (kondisi default).      | nilai: true = ON minimize (badge kecil) / false = OFF minimize (panel lebar). | efek: true (default) = hemat tempat saat banyak instance; false = panel langsung kebuka penuh.
